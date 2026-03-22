@@ -375,17 +375,26 @@ export default function Page() {
             </p>
 
             {!isPro && (
-              <div className="mt-4">
-                <a
-                  href="https://techviralhub.gumroad.com/l/cllide"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-block rounded-xl bg-orange-500 px-6 py-3 font-semibold text-black transition hover:bg-orange-400"
-                >
-                  🔓 Unlock Pro (€9)
-                </a>
-              </div>
-            )}
+  <>
+    <div className="mt-4">
+      <a
+        href="https://techviralhub.gumroad.com/l/cllide"
+        target="_blank"
+        rel="noreferrer"
+        className="inline-block rounded-xl bg-orange-500 px-6 py-3 font-semibold text-black transition hover:bg-orange-400"
+      >
+        🔓 Unlock Pro — One-time €9
+      </a>
+    </div>
+
+    <div className="mt-4 text-sm text-slate-300 space-y-1">
+      <p>✔ Save trade setups</p>
+      <p>✔ Trade journal</p>
+      <p>✔ CSV export</p>
+      <p>✔ Stats dashboard</p>
+    </div>
+  </>
+)}
           </div>
 
           <div className="grid w-full grid-cols-2 gap-3 md:w-auto md:grid-cols-3">

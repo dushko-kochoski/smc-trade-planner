@@ -377,7 +377,7 @@ export default function Page() {
             {!isPro && (
               <div className="mt-4">
                 <a
-                  href="https://gumroad.com"
+                  href="https://techviralhub.gumroad.com/l/cllide"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-block rounded-xl bg-orange-500 px-6 py-3 font-semibold text-black transition hover:bg-orange-400"
